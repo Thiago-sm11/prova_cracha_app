@@ -102,9 +102,13 @@ class MeuCrachaApp extends StatelessWidget {
                   children: [
                     Chip(label: Text('Dart')),
                     SizedBox(width: 5),
+	            
                     // TODO: Adicionar o Chip 'Flutter',
+		    Chip(label: Text('Flutter')),
                     SizedBox(width: 5),
                     // TODO: Adicionar o Chip 'Git',
+		    Chip(label: Text('Git')),
+		    SizedBox(width: 5),
                   ],
                 ),
                 
