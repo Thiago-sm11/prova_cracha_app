@@ -68,7 +68,7 @@ class MeuCrachaApp extends StatelessWidget {
                 const SizedBox(height: 15),
                 
                 const Text(
-                  'Seu Nome Completo',
+                  'Thiago Silva de Moraes',
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
@@ -81,9 +81,9 @@ class MeuCrachaApp extends StatelessWidget {
                 // Adicione a propriedade para fonte em itálico (fontStyle).
                 // ===============================================================
                 const Text(
-                  'Desenvolvedor Mobile Flutter / SENAI',
+                  'Thiago Silva de Moraes Mobile Flutter / SENAI',
                   style: TextStyle(
-		    fontStyle: Fontstyle.italic,	// Mudança a fonte para italico
+		    fontStyle: FontStyle.italic,	// Mudança a fonte para italico
                     color: Colors.white70,
                     // TODO: Inserir fontStyle: FontStyle.italic
                   ),
