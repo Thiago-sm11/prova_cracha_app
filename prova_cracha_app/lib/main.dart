@@ -40,7 +40,10 @@ class MeuCrachaApp extends StatelessWidget {
               // ===============================================================
               gradient: const LinearGradient(
                 colors: [
-                  // TODO: Primeira cor do gradiente,
+                 Colors.indigo,		// Adição da primeira cor do gradiante
+		  Colors.blueAccent, 	// Adição final gradiante
+
+			// TODO: Primeira cor do gradiente,
                   // TODO: Segunda cor do gradiente,
                 ],
                 begin: Alignment.topLeft,
