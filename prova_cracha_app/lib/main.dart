@@ -60,6 +60,8 @@ class MeuCrachaApp extends StatelessWidget {
                 // ===============================================================
                 const CircleAvatar(
                   radius: 50,
+
+			backgroundImage: NetworkImage( 'https://share.google/jQztOJ8cZsTrt1bEo',),
                   // TODO: Adicionar propriedade backgroundImage com NetworkImage
                 ),
                 
