@@ -61,7 +61,7 @@ class MeuCrachaApp extends StatelessWidget {
                 const CircleAvatar(
                   radius: 50,
 
-			backgroundImage: NetworkImage( 'https://share.google/jQztOJ8cZsTrt1bEo',),
+			backgroundImage: NetworkImage( 'https://share.google/jQztOJ8cZsTrt1bEo'),
                   // TODO: Adicionar propriedade backgroundImage com NetworkImage
                 ),
                 
@@ -83,6 +83,7 @@ class MeuCrachaApp extends StatelessWidget {
                 const Text(
                   'Desenvolvedor Mobile Flutter / SENAI',
                   style: TextStyle(
+		    fontStyle: Fontstyle.italic,	// Mudança a fonte para italico
                     color: Colors.white70,
                     // TODO: Inserir fontStyle: FontStyle.italic
                   ),
